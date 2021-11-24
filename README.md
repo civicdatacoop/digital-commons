@@ -1,2 +1,2 @@
 # Liverpool Digital Commons
-Project placeholder.
+Project placeholder. Place for docs.
