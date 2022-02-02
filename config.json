@@ -1,0 +1,72 @@
+{
+   "templates_path":"./LAYOUTS",
+   "resources_path":"./RESOURCES",
+   "css_style_path":null,
+   "default_layout_template":"layout.jnj",
+   "default_article_template":"article.jnj",
+   "default_page_template":"article.jnj",
+   "default_dataset_template":"dataset.jnj",
+   "default_dataset_list_template":"dataset_list.jnj",
+   "default_article_list_template":"article_list.jnj",
+   "maximal_article_tag_cloud_size":5,
+   "default_article_tag_cloud_template":"tag_cloud.jnj",
+   "title_article_tag_cloud":"Article tag cloud",
+   "maximal_dataset_tag_cloud_size":5,
+   "default_dataset_tag_cloud_template":"tag_cloud.jnj",
+   "title_dataset_tag_cloud":"Dataset tag cloud",
+   "default_menu_template":"menu.jnj",
+   "default_recent_posts_template":"recent_entities.jnj",
+   "maximal_recent_posts":5,
+   "recent_posts_title":"Recent posts",
+   "default_recent_datasets_template":"recent_entities.jnj",
+   "maximal_recent_datasets":5,
+   "recent_datasets_title":"Recent datasets",
+   "site_title":"LCR Digital Commons",
+   "site_logo_text":"Digital Commons",
+   "site_title_separator":" | ",
+   "site_title_homepage":"Home",
+   "site_home_url":"index.html",
+   "site_home_file_name":"index.html",
+   "site_file_suffix":".html",
+   "pagination_prefix":"-",
+   "pagination_suffix":"page-",
+   "pagination_max_item_per_page":7,
+   "default_text_sections_in_right_menu_template":"text_in_menu.jnj",
+   "text_sections_in_right_menu":[
+      {
+         "header":"About",
+         "content":"Generated using <a href=\"http://www.crinita.com/\">Crinita</a>."
+      }
+   ],
+   "footer":"<p><a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\"><img alt=\"Creative Commons License\" style=\"border-width:0\" src=\"https://i.creativecommons.org/l/by/4.0/88x31.png\" /></a><br />All the content is licensed under a <br><a rel=\"license\" href=\"http://creativecommons.org/licenses/by/4.0/\">Creative Commons Attribution 4.0 International License</a>.</p>",
+   "append_to_head_tag":null,
+   "default_meta_description":"Liverpool City Region Digital Commons",
+   "default_meta_keywords":"blog, data catalogue, liverpool, city region",
+   "default_meta_meta_author":"LCR CDC",
+   "append_to_menu":[
+      {
+         "title":"BLOG",
+         "url":"__BLOG__",
+         "menu_position":20
+      },
+      {
+         "title":"CATALOGUE",
+         "url":"__DATASET__",
+         "menu_position":30
+      }
+   ],
+   "time_format":"%B %d, %Y",
+   "site_map_template":"site_map.jnj",
+   "site_map_url_prefix":"",
+   "robots_txt":"User-agent: *\nAllow: /\nSitemap: sitemap.xml",
+   "tag_url_prefix":"tag-",
+   "blog_url":"blog",
+   "blog_title":"Blog",
+   "dataset_url":"catalogue",
+   "dataset_title":"Data catalogue",
+   "template_parameters":null,
+   "global_template_parameters":{
+
+   },
+   "object_type":"Config"
+}

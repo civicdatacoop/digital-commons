@@ -1,0 +1,16 @@
+{
+"object_type": "Article",
+"template": "__DEFAULT__",
+"description": null,
+"keywords": "kw_1, kw_2",
+"url_alias": "some-article",
+"title": "Some article",
+"tags": [
+  {"name": "Some tag", "url_alias": "some-tag"}
+],
+"date": "2021-12-17T00:00:00",
+"lead": "Article lead.",
+"content": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean varius turpis at arcu mattis porttitor. Donec volutpat orci quis odio blandit eleifend. Proin nec varius dui. Mauris at velit interdum, condimentum libero et, consectetur nunc. Cras ac est eros. Aliquam fringilla risus id tellus dapibus, in elementum mauris vestibulum. Sed pharetra dictum hendrerit. Donec pretium, dolor et congue feugiat, lectus diam luctus ligula, ac ultricies nisi mi quis mauris.</p><p> Sed cursus enim et hendrerit elementum. Curabitur eget eleifend ante. Ut vulputate, libero nec finibus consequat, quam dolor ullamcorper metus, vel auctor dolor justo quis libero. Curabitur a tincidunt dui, id tempus ante.\n\nNunc semper condimentum libero eu posuere. In hac habitasse platea dictumst. Nullam vel turpis id nunc sagittis vulputate. Etiam posuere nisi sed justo pretium, et egestas diam lobortis. Ut magna erat, malesuada in eros quis, pharetra vestibulum quam. Curabitur nec facilisis sapien, sed varius ligula. Aliquam elementum dui nisi, eu lobortis sapien dictum at.\n\nSuspendisse potenti. Phasellus aliquam commodo purus, eu tristique lorem.</p><p>Fusce pellentesque nunc quis lacus ornare, sit amet tincidunt purus sagittis. Etiam sollicitudin mi at tellus imperdiet, sed interdum velit vehicula. Sed ac ornare lorem, dapibus sollicitudin neque. Integer laoreet semper purus, eu molestie lorem lobortis quis. Quisque egestas turpis sit amet velit malesuada pulvinar. Etiam eget accumsan lorem, in sagittis velit. Donec non quam elit.\n\nDonec erat risus, volutpat sit amet odio at, sodales suscipit mi. Sed vulputate magna quis egestas viverra. Nullam sollicitudin fermentum lorem, ac sollicitudin justo. Phasellus non fringilla purus, vel varius augue. Quisque quis lorem ac ex consequat venenatis. Cras cursus ante vitae sem condimentum ullamcorper. Duis mauris urna, volutpat a ex at, eleifend eleifend ipsum. Praesent odio ligula, faucibus ut dictum sit amet, aliquet a diam. Pellentesque vehicula dolor diam, a pharetra dui dignissim at.\n\nQuisque et diam neque. Duis tristique lacinia enim at cursus. Donec dapibus iaculis nunc et dignissim. Morbi at facilisis nisi, eget pharetra magna. Nullam posuere facilisis purus, eu aliquet sapien finibus eget. Donec non neque dignissim, dictum ligula eget, rutrum mauris. Quisque sollicitudin vel massa non tristique. Nullam eget orci at erat sagittis euismod vel et ex. Donec eu porttitor ipsum, eget pretium mi. Proin massa nibh, commodo ac pulvinar vitae, rhoncus ut tortor.</p>",
+"large_image_path": "assets/images/liverpool.jpg",
+"small_image_path": null
+}

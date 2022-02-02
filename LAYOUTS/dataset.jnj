@@ -1,0 +1,123 @@
+<section class="w3l-blog">
+  <div class="text-element-9 py-5">
+      <div class="container py-md-5 py-4 BlogArticle">
+          <div class="row grid-text-9">
+              <!-- single post -->
+              <div class="col-lg-8 text11-content">
+                  <div class="single-bottom-blog">
+
+                    {% if large_image_path %}
+                    <div class="top-bg bg-img">
+                        <div class="post-thumbnail">
+                            <img width="1680"
+                             height="900"
+                             src="{{ large_image_path }}"
+                             class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                             alt="{{ title }}"
+                             loading="lazy"
+                             sizes="(max-width: 1680px) 100vw, 1680px" />
+                        </div>
+                        <!-- .post-thumbnail -->
+                    </div>
+                    {% endif %}
+
+                        <div class="bottom-grid mt-4 pt-md-2">
+                            <ul class="blog-author-date mb-sm-4 mb-3 d-flex justify-content-between align-items-end">
+                                <li class="author"><a href="blog.html">
+                                    <i class="fas fa-arrow-left mr-1" aria-hidden="true"></i>
+                                    <span class="byline"><span class="author vcard"><a class="url fn n" href="blog.html">catalogue</a></span></span></a>
+                                </li>
+                                <li><i class="fas fa-clock mr-1" aria-hidden="true"></i>{{ date }}</li>
+                            </ul>
+                            <h3>{{ title }}</h3>
+                            <div class="entry-content">
+                                <div class="single-post-content">
+                                    {{ content }}
+                                </div>
+
+                                {% if data_entities %}
+                                    <div class="single-post-content">
+                                        <h4>Files and APIs</h4>
+
+                                        <div class="data-entities">
+                                            {% for dataset in data_entities -%}
+
+                                            <div class="row">
+                                                <div class="author-left col-sm-3 mb-sm-0 mb-4">
+                                                    <a href="{{ dataset.data_link }}">
+                                                        {% if dataset.icon %}
+                                                        <img class="img-fluid"
+                                                         src="{{ dataset.icon }}"
+                                                         alt="{{ dataset.title }}">
+                                                        {% else %}
+                                                        <img class="img-fluid"
+                                                         src="assets/images/no_file.png"
+                                                         alt="{{ dataset.title }}">
+                                                        {% endif %}
+                                                    </a>
+                                                </div>
+                                                <div class="author-right col-sm-9 position-relative align-self-center">
+                                                    <h4>
+                                                        <a href="{{ dataset.data_link }}" class="title-team-28">{{ dataset.title }}</a>
+                                                    </h4>
+                                                    <p class="para-team mb-0 mt-1">
+                                                        {{ dataset.description }}
+                                                    </p>
+                                                    {% if dataset.license %}
+                                                        <p class="para-team mb-0 mt-1">License: {{ dataset.license }}</p>
+                                                    {% endif %}
+                                                </div>
+                                            </div>
+
+                                            {% endfor %}
+                                        </div>
+                                    </div>
+                                {% endif %}
+
+                                {% if data_source %}
+                                    <h4>Data source</h4>
+                                    <div class="single-post-content">
+                                        {{ data_source }}
+                                    </div>
+                                {% endif %}
+
+                                {% if maintainer %}
+                                    <h4>Maintainer</h4>
+                                    <div class="single-post-content">
+                                        {{ maintainer }}
+                                    </div>
+                                {% endif %}
+
+                                {% if license %}
+                                    <h4>License</h4>
+                                    <div class="single-post-content">
+                                        {{ license }}
+                                    </div>
+                                {% endif %}
+
+                                {% if tags %}
+                                    <hr class="my-4">
+                                    <div>
+                                        {% for tag in tags %}
+                                        <a href="{{ tag.url }}" class="btn btn-primary">{{ tag.name }}</a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .entry-content -->
+
+                </div>
+                <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-5">
+                    <div class="sidebar right-sidebar">
+                        <aside id="secondary" class="widget-area">
+                            {{ additional_tags['recent_datasets'] }}
+                            {{ additional_tags['dataset_tag_cloud'] }}
+                        </aside><!-- #secondary -->
+                    </div>
+                </div>
+            </div>
+		</div>
+	</div>
+</section>

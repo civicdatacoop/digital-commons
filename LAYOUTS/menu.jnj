@@ -1,0 +1,10 @@
+{% if menu_items %}
+<div class="collapse navbar-collapse" id="navbar-content">
+    <ul id="primary-menu" class="navbar-nav ml-lg-auto">
+    {% for menu_item in menu_items %}
+        <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page nav-item"><a href="{{ menu_item.url }}" class="nav-link">{{ menu_item.title }}</a></li>
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}
+

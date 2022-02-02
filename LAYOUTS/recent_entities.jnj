@@ -1,0 +1,12 @@
+{% if recent_elements %}
+<section id="recent-posts-2" class="widget widget_recent_entries">
+    <h2 class="widget-title">{{ recent_elements_title }}</h2>
+    <ul>
+    {% for recent_element in recent_elements %}
+        <li>
+            <a href="{{ recent_element.url }}">{{ recent_element.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}

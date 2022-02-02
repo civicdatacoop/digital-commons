@@ -1,0 +1,11 @@
+{
+   "object_type": "Page",
+   "template": "page_about.html",
+   "description": null,
+   "keywords": null,
+   "url_alias": "about",
+   "title": "About",
+   "large_image_path": null,
+   "content": "CONTENT IS IN JINJA2 TEMPLATE",
+   "menu_position": 10
+}

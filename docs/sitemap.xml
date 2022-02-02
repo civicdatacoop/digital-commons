@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>some-article-2.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-4.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-5.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-8.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-3.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-6.html</loc>
+  </url>
+
+  <url>
+    <loc>some-article-7.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-02.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-03.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-04.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-05.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-06.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-07.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-08.html</loc>
+  </url>
+
+  <url>
+    <loc>some-dataset-01.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-some-tag.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-some-tag-page-1.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-super-extra-tag.html</loc>
+  </url>
+
+  <url>
+    <loc>blog.html</loc>
+  </url>
+
+  <url>
+    <loc>blog-page-1.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-some-dataset-tag.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-some-dataset-tag-page-1.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-another-dataset-tag.html</loc>
+  </url>
+
+  <url>
+    <loc>catalogue.html</loc>
+  </url>
+
+  <url>
+    <loc>catalogue-page-1.html</loc>
+  </url>
+
+  <url>
+    <loc>index.html</loc>
+  </url>
+
+  <url>
+    <loc>about.html</loc>
+  </url>
+
+  <url>
+    <loc>contact.html</loc>
+  </url>
+
+</urlset>

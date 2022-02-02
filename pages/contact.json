@@ -1,0 +1,11 @@
+{
+   "object_type": "Page",
+   "template": "page_contact.html",
+   "description": null,
+   "keywords": null,
+   "url_alias": "contact",
+   "title": "Contact",
+   "large_image_path": null,
+   "content": "CONTENT IS IN JINJA2 TEMPLATE",
+   "menu_position": 50
+}

@@ -1,0 +1,17 @@
+{
+"object_type": "Article",
+"template": "__DEFAULT__",
+"description": null,
+"keywords": "kw_1, kw_2",
+"url_alias": "some-article-6",
+"title": "Some article",
+"tags": [
+  {"name": "Some tag", "url_alias": "some-tag"},
+  {"name": "Super extra tag", "url_alias": "super-extra-tag"}
+],
+"date": "2021-12-17T00:00:00",
+"lead": "Article lead.",
+"content": "<p>Article content</p>",
+"large_image_path": null,
+"small_image_path": null
+}

@@ -1,0 +1,3 @@
+# Track big-data to remove duplicities
+track "data/"
+track "RESOURCES/"

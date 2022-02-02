@@ -1,0 +1,10 @@
+{% if tags %}
+<section id="categories-2" class="widget widget_categories">
+    <h2 class="widget-title">{{ tag_cloud_title }}</h2>
+    <ul>
+    {% for tag in tags %}
+        <li class="cat-item cat-item-2"><a href="{{ tag.url }}">{{ tag.name }}</a></li>
+    {% endfor %}
+    </ul>
+</section>
+{% endif %}

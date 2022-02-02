@@ -1,0 +1,32 @@
+{# Article preview in the list of articles #}
+
+<article class="post-1 post type-post status-publish format-standard has-post-thumbnail hentry category-business">
+<div>
+	<div href="{{ url }}" class="blog-article-post">
+		<div class="blog-post align-content-between">
+		    {% if large_image_path %}
+			<a href="{{ url }}">
+			    <a class="post-thumbnail" href="{{ url }}" aria-hidden="true" tabindex="-1">
+			    <img width="1680" height="900"
+			     src="{{ large_image_path }}"
+			     class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+			     alt="{{ title }}" loading="lazy"
+			     sizes="(max-width: 1680px) 100vw, 1680px">
+			    </a>
+			</a>
+			{% endif %}
+			<div class="post-content">
+				<ul class="blog-author-date mb-sm-4 mb-3 d-flex justify-content-between align-items-end">
+				    <li class="author"><a href="{{ url }}"><i class="fas fa-angle-double-right mr-1" aria-hidden="true"></i><span class="byline"> READ MORE</a></li>
+				    <li><i class="fas fa-clock mr-1" aria-hidden="true"></i>{{ date }}</li>
+				</ul>
+				<h4 class="text-head-text-9">
+					<a href="{{ url }}">{{ title }}</a>
+				</h4>
+				{% if lead %}
+				<p class="mt-1">{{ lead }}</p>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</article>

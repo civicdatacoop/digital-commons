@@ -1,0 +1,51 @@
+
+<section class="w3l-blog">
+	<div class="text-element-9 py-5">
+		<div class="container py-md-5 py-4 BlogHomeLayout">
+			<div class="row grid-text-9">
+			    <div class="col-lg-8 text11-content">
+                    {% for entity_prev in entities %}
+                        {% set url = entity_prev.url %}
+                        {% set title = entity_prev.title %}
+                        {% set date = entity_prev['date'] %}
+                        {% set small_image_path = entity_prev.small_image_path %}
+                        {% set large_image_path = entity_prev.large_image_path %}
+                        {% set lead = entity_prev.lead %}
+                        {% include "article_preview.jnj" %}
+                    {% endfor %}
+
+                    {% if navigation_previous or navigation_next %}
+                    <!-- pagination -->
+                    <div class="pagination-wrapper mt-5">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination justify-content-start">
+                                <ul class='page-numbers'>
+                                    {% if navigation_previous %}
+                                        <li><a class="next page-numbers" href="{{ navigation_previous }}">Older Posts</a></li>
+                                    {% endif %}
+                                    {% if navigation_next %}
+                                        <li><a class="next page-numbers" href="{{ navigation_next }}">Newer Posts</a></li>
+                                    {% endif %}
+                                </ul>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- //pagination -->
+                    {% endif %}
+                </div>
+
+                {# SIDEBAR #}
+                <div class="sidebar-side col-lg-4 col-md-12 col-sm-12 mt-lg-0 mt-5">
+                    <div class="sidebar right-sidebar">
+                        <aside id="secondary" class="widget-area">
+                            {{ additional_tags['recent_posts'] }}
+                            {{ additional_tags['article_tag_cloud'] }}
+                        </aside><!-- #secondary -->
+                    </div>
+                </div>
+                {# END OF SIDEBAR #}
+			</div>
+        </div>
+    </div>
+</div>
+</section>

@@ -1,0 +1,38 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": "kw_1, kw_2",
+      "url_alias": "some-dataset-01",
+      "title": "New dataset",
+      "tags": [
+        {"name": "Some dataset tag", "url_alias": "some-dataset-tag"}
+      ],
+      "date": "2021-12-14T00:00:00",
+      "lead": "Dataset lead.",
+      "content": "<p>Dataset content</p>",
+      "large_image_path": null,
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Whatever title",
+          "data_link": "https://google.com/",
+          "description": "Short description",
+          "license": "CC BY",
+          "icon": "assets/images/excel_file.png",
+          "extension": "PNG"
+        },
+
+        {
+          "title": "Whatever title",
+          "data_link": "https://google.com/",
+          "description": "Short description",
+          "license": "CC BY",
+          "icon": "assets/images/excel_file.png",
+          "extension": "JPG"
+        }
+      ],
+      "data_source": "<p>Lovely data source</p>",
+      "maintainer": "<p>Perfect maintainer</p>",
+      "license": "<p>Some lovely license</p>"
+    }
