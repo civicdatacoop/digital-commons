@@ -6,6 +6,6 @@
    "url_alias": "contact",
    "title": "Contact",
    "large_image_path": null,
-   "content": "CONTENT IS IN JINJA2 TEMPLATE",
+   "content": "CONTENT IS IN THE JINJA2 TEMPLATE: /LAYOUTS/page_contact.html",
    "menu_position": 50
 }

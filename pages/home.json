@@ -6,7 +6,7 @@
    "url_alias": null,
    "title": "Home",
    "large_image_path": null,
-   "content": "CONTENT IS IN JINJA2 TEMPLATE",
+   "content": "CONTENT IS IN THE JINJA2 TEMPLATE: /LAYOUTS/page_home.html",
    "menu_position": 0,
    "template_parameters": {
       "this_is_homepage": true
