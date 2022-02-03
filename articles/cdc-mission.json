@@ -1,0 +1,20 @@
+{
+"object_type": "Article",
+"template": "__DEFAULT__",
+"description": null,
+"keywords": null,
+"url_alias": "mission-of-the-liverpool-city-region-civic-data-cooperative-team",
+"title": "Mission of the Liverpool City Region Civic Data Cooperative team",
+"tags": [
+  {"name": "LCR CDC", "url_alias": "lrc-cdc"},
+  {"name": "Team", "url_alias": "team"},
+  {"name": "Introduction", "url_alias": "introduction"},
+  {"name": "University of Liverpool", "url_alias": "university-of-liverpool"},
+  {"name": "CDC Mission", "url_alias": "cdc-mission"}
+],
+"date": "2022-01-12T00:00:00",
+"lead": "The LCR CDC wants to cooperate with everyone engaged in public life, including GP practices, Liverpool health partners, research-interested clinicians, nurses, SMEs, and the general public. We want to join everyone's forces to improve life in the region.",
+"content": "<p>The LCR CDC wants to cooperate with everyone engaged in public life, including GP practices, Liverpool health partners, research-interested clinicians, nurses, SMEs, and the general public. We want to join everyone's forces to improve life in the region.</p><p>We have access to various types of datasets related to population health.</p><p>We follow best practices in processing and making our algorithms public.</p><p>Our solutions can help with real-life situations and improve quality of life.</p>",
+"large_image_path": "data/images/team.jpg",
+"small_image_path": null
+}

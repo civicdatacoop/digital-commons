@@ -2,35 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>some-article-2.html</loc>
+    <loc>civic-data-cooperative-team-introduction.html</loc>
   </url>
 
   <url>
-    <loc>some-article-4.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article-5.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article-8.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article-3.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article-6.html</loc>
-  </url>
-
-  <url>
-    <loc>some-article-7.html</loc>
+    <loc>mission-of-the-liverpool-city-region-civic-data-cooperative-team.html</loc>
   </url>
 
   <url>
@@ -50,23 +26,27 @@
   </url>
 
   <url>
-    <loc>tag-some-tag.html</loc>
+    <loc>tag-lrc-cdc.html</loc>
   </url>
 
   <url>
-    <loc>tag-some-tag-page-1.html</loc>
+    <loc>tag-team.html</loc>
   </url>
 
   <url>
-    <loc>tag-super-extra-tag.html</loc>
+    <loc>tag-introduction.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-university-of-liverpool.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-cdc-mission.html</loc>
   </url>
 
   <url>
     <loc>blog.html</loc>
-  </url>
-
-  <url>
-    <loc>blog-page-1.html</loc>
   </url>
 
   <url>
