@@ -1,0 +1,46 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "gla-code-of-statistics",
+      "title": "GLA Code of Statistics",
+      "tags": [
+        {"name": "Statistics", "url_alias": "statistics"},
+        {"name": "Great London Area", "url_alias": "great-london-area"},
+        {"name": "Public", "url_alias": "public"},
+        {"name": "Research", "url_alias": "research"},
+        {"name": "COVID-19", "url_alias": "covid-19"}
+      ],
+      "date": "2019-09-21T00:00:00",
+      "lead": "This timetable shows the advance publication dates of statistics published by the GLA Group under voluntary application of the UK Statistics Authority Code of Practice.",
+      "content": "<p>This timetable shows the advance publication dates of statistics published by the GLA Group under voluntary application of the UK Statistics Authority Code of Practice.</p><h5>List of GLA Group Statistics</h5><p>This document lists statistics published by the GLA Group under voluntary application of the UK Statistics Authority Code of Practice.</p><h5>Advanced Publication Timetable</h5><p>This timetable shows the advance publication dates of statistics published by the GLA Group under voluntary application of the UK Statistics Authority Code of Practice.</p>",
+      "large_image_path": "data/images/london_stats.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "GLA and functional bodies statistics",
+          "data_link": "https://data.london.gov.uk/download/code-of-statistics/c504324c-b3e7-4982-8582-f03c1c0b8ff3/GLA%20and%20functional%20bodies%20statistics.docx",
+          "description": "Statistics report",
+          "icon": "assets/images/docx_file.png",
+          "extension": "DOCX"
+        },
+        {
+          "title": "GLA and Functional Bodies Advance Publication Timetable",
+          "data_link": "https://data.london.gov.uk/download/code-of-statistics/c7049207-f879-43fc-ac79-069acaeb25a4/GLA%20and%20Functional%20Bodies%20Advance%20Publication%20Timetable.xlsx",
+          "description": "Publication Timetable",
+          "icon": "assets/images/xlsx_file.png",
+          "extension": "XLSX"
+        },
+        {
+          "title": "GLA code of statistics compliance statement",
+          "data_link": "https://data.london.gov.uk/download/code-of-statistics/163051ae-7bf4-46a9-adc6-80f40afe6822/Compliance%20statement.pdf",
+          "description": "Compliance statement",
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        }
+      ],
+      "data_source": "<p><strong>Greater London Authority (GLA)</strong></p><p>The GLA is a strategic regional authority, with powers over transport, policing, economic development, and fire and emergency planning. Three functional bodies — Transport for London, the Mayor's Office for Policing and Crime, and London Fire and Emergency Planning Authority — are responsible for delivery of services in these areas.</p>",
+      "maintainer": "<p>GLA Group</p>",
+      "license": "<p>Not Specified</p>"
+    }

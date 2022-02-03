@@ -1,0 +1,32 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "experiences-of-food-insecurity",
+      "title": "Experiences of Food Insecurity amongst Older Londoners before and during COVID-19",
+      "tags": [
+        {"name": "Food Insecurity", "url_alias": "food-insecurity"},
+        {"name": "Great London Area", "url_alias": "great-london-area"},
+        {"name": "Public", "url_alias": "public"},
+        {"name": "Research", "url_alias": "research"},
+        {"name": "COVID-19", "url_alias": "covid-19"}
+      ],
+      "date": "2020-09-21T00:00:00",
+      "lead": "Qualitative research with older Londoners undertaken by the GLA.",
+      "content": "<p>Qualitative research with older Londoners undertaken by the GLA exploring:<br><br>The causes of food insecurity and malnutrition amongst older Londoners, including the impact of coronavirus<br>The experiences of older Londoners experiencing food insecurity and its impact on general well-being <br>The extent to which the diets (including water intake) of older Londoners are monitored/discussed<br>The extent to which older Londoners understand and/or think about their nutritional needs</p>",
+      "large_image_path": "data/images/london_food.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Experiences of Food Insecurity amongst Older Londoners before and during COVID-19",
+          "data_link": "https://airdrive-secure.s3-eu-west-1.amazonaws.com/london/dataset/experiences-of-food-insecurity-amongst-older-londoners-before-and-during-covid-19--/2020-10-08T15%3A11%3A51/Food%20Insecurity%20amongst%20Older%20Londoners%20FINAL%20Report%20V4-upload.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJJDIMAIVZJDICKHA%2F20220203%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Date=20220203T093541Z&X-Amz-Expires=300&X-Amz-Signature=30579e068a5ee30c9e24d7cb969d28e8574238e7f829455b5bfe3c8c3bfd1948&X-Amz-SignedHeaders=host",
+          "description": "City Intelligence Report",
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        }
+      ],
+      "data_source": "<p><strong>Greater London Authority (GLA)</strong></p><p>The GLA is a strategic regional authority, with powers over transport, policing, economic development, and fire and emergency planning. Three functional bodies — Transport for London, the Mayor's Office for Policing and Crime, and London Fire and Emergency Planning Authority — are responsible for delivery of services in these areas.</p>",
+      "maintainer": "<p>Helen Moore\n</p>",
+      "license": "<p><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\">UK Open Government Licence</a> (OGL v3)</p>"
+    }

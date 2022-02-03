@@ -10,6 +10,8 @@ PATH_TO_CONFIG_JSON: Path = Path('config.json')
 PATH_TO_PAGES: Path = Path('./pages')
 PATH_TO_ARTICLES: Path = Path('./articles')
 PATH_TO_DATASETS: Path = Path('./catalogue')
+PATH_TO_DATA: Path = Path('./DATA')
+PATH_TO_DATA_OUTPUT: Path = PATH_TO_OUTPUTS / 'data'
 
 # CREATE FOLDER FOR OUTPUTS
 # Remove all old content
@@ -40,3 +42,5 @@ website.generate_pages(
     # Output path
     Path(PATH_TO_OUTPUTS), rewrite_if_exists=True
 )
+# 5. Copy data
+shutil.copytree(PATH_TO_DATA, PATH_TO_DATA_OUTPUT)

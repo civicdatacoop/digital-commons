@@ -1,0 +1,41 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "gla-economics-covid-19-labour-market-analysis",
+      "title": "GLA Economics COVID-19 Labour Market Analysis",
+      "tags": [
+        {"name": "Labour Market", "url_alias": "labour-market"},
+        {"name": "London", "url_alias": "london"},
+        {"name": "COVID-19", "url_alias": "covid-19"},
+        {"name": "Furlough", "url_alias": "furlough"},
+        {"name": "Businesses", "url_alias": "businesses"}
+      ],
+      "date": "2020-11-16T12:00:00",
+      "lead": "Analysis of the labour market covering the latest developments and emerging evidence of the COVID-19 impact over the course of the pandemic.",
+      "content": "<p>Analysis of the labour market covering the latest developments and emerging evidence of the COVID-19 impact over the course of the pandemic.<br><br>This set of analysis has been prepared under challenging circumstances and to short timescales to inform key policy issues. When using outputs from this analysis you should be aware of the following caveats:<br><br>•The analysis is not intended to be comprehensive or exhaustive. It is a snapshot analysis of key data as it pertains to London.<br>•The analysis does not represent the full body of evidence on which Mayoral Policies are or will be based.<br>Given these limitations, we would advise that our outputs are triangulated with other sources of information and analysis to develop a rounded statistical picture of any specific policy issues.</p>",
+      "large_image_path": "data/images/london_reports.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Claimant Count data for London Boroughs - October 2021",
+          "data_link": "https://data.london.gov.uk/download/gla-economics-covid-19-labour-market-analysis/a757719c-945e-4a4f-b896-601e847319d0/Claimant%20Count%20data%20for%20London%20Boroughs%20-%20October%202021.pdf",
+          "description": "A more in-depth look at the number of people claiming unemployment related benefits (the Claimant Count) by local authority in London.",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        },
+        {
+          "title": "Labour market update for London - January 2022",
+          "data_link": "https://data.london.gov.uk/download/gla-economics-covid-19-labour-market-analysis/22eef8b7-3a4f-4c1e-85c0-1aedcbdb20ca/2022-01-18-LMU-markdown.html",
+          "description": "January Report",
+          "license": null,
+          "icon": "assets/images/html_file.png",
+          "extension": "HTML"
+        }
+      ],
+      "data_source": "<p><strong>Greater London Authority (GLA)</strong></p><p>The GLA is a strategic regional authority, with powers over transport, policing, economic development, and fire and emergency planning. Three functional bodies — Transport for London, the Mayor's Office for Policing and Crime, and London Fire and Emergency Planning Authority — are responsible for delivery of services in these areas.</p>",
+      "maintainer": "<p>Civil Society Team</p>",
+      "license": "<p><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\">UK Open Government Licence</a> (OGL v3)</p>"
+    }

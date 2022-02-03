@@ -60,9 +60,11 @@
                                                     <h4>
                                                         <a href="{{ dataset.data_link }}" class="title-team-28">{{ dataset.title }}</a>
                                                     </h4>
+                                                    {% if dataset.description  %}
                                                     <p class="para-team mb-0 mt-1">
                                                         {{ dataset.description }}
                                                     </p>
+                                                    {% endif %}
                                                     {% if dataset.license %}
                                                         <p class="para-team mb-0 mt-1">License: {{ dataset.license }}</p>
                                                     {% endif %}

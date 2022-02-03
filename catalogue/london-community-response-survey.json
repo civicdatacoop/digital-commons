@@ -1,0 +1,65 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "london-community-response-survey",
+      "title": "London Community Response Survey\n",
+      "tags": [
+        {"name": "Response Survey", "url_alias": "response-survey"},
+        {"name": "London", "url_alias": "london"},
+        {"name": "COVID-19", "url_alias": "covid-19"},
+        {"name": "Questionnaire", "url_alias": "questionnaire"},
+        {"name": "Public", "url_alias": "public"}
+      ],
+      "date": "2020-04-16T12:00:00",
+      "lead": "This dataset presents results of a weekly questionnaire sent to a cohort of frontline civil society organisations from April 2020. The results are being used alongside a range of other pieces of intelligence to inform the pan-London response to the COVID-19 pandemic.",
+      "content": "<p>This dataset presents results of a weekly questionnaire sent to a cohort of frontline civil society organisations from April 2020. The results are being used alongside a range of other pieces of intelligence to inform the pan-London response to the COVID-19 pandemic.</p><p>The week one questionnaire asked organisations a number of profile questions to understand more about the work they do.</p><p>Questionnaires from week two onwards have asked organisations about patterns of need they are seeing amongst their beneficiary groups in the last week. Responses to these questions are linked back to the week one profile questions, where possible, to understand how responses vary between different types of organisations.</p><p>This is also an ongoing 'on-boarding' questionnaire sent to new members of the cohort. This replicates the profile questions in the week one questionnaire, allowing the cohort to grow over time.</p><p>The cohort was recruited using contacts already held by the Greater London Authority, and also incorporated a 'snowball sampling' technique whereby larger infrastructure organisations were encouraged to forward the invite to smaller organisations they work with.</p><p>When reading these results, it is important to bear in mind that the cohort is relatively small and not fully representative of all civil society organisations in London. For these reasons, the results should be used alongside other pieces of intelligence and should not be used to make claims about civil society in London as a whole.</p><p>If you represent a civil society organisation and would like to take part, please email us at civilsociety@london.gov.uk</p>",
+      "large_image_path": "data/images/london.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Civil Society Response Survey Week One Results",
+          "data_link": "https://data.london.gov.uk/download/london-community-response-survey/a66e6e85-e2f8-450c-b35c-d10700ba8301/Civil%20Society%20Response%20Survey%20Week%20One%20Results.pdf",
+          "description": "Results for the first week",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        },
+        {
+          "title": "Civil Society Response Survey Week Two Results",
+          "data_link": "https://data.london.gov.uk/download/london-community-response-survey/5c65ca68-c9fb-4b8e-a78e-03208d2e4f68/Civil%20Society%20Response%20Survey%20Week%20Two%20Results.pdf",
+          "description": "Results for the second week",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        },
+        {
+          "title": "Civil Society Response Survey Week Three Results",
+          "data_link": "https://data.london.gov.uk/download/london-community-response-survey/b9cc150c-5aae-4bb3-a143-5b530ddaefa8/Civil%20Society%20Response%20Survey%20Week%20Three%20Results.pdf",
+          "description": "Results for the third week",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        },
+        {
+          "title": "Civil Society Response Survey Week Four Results",
+          "data_link": "https://data.london.gov.uk/download/london-community-response-survey/59861f08-1baa-42bf-9f08-f84cefe173f3/Civil%20Society%20Response%20Survey%20Week%20Four%20Results.pdf",
+          "description": "Results for the fourth week",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        },
+        {
+          "title": "Civil Society Response Survey Week Five Results.pdf ",
+          "data_link": "https://data.london.gov.uk/download/london-community-response-survey/83ddc0b8-d8df-409a-8c78-ac535585b481/Civil%20Society%20Response%20Survey%20Week%20Five%20Results.pdf",
+          "description": "Results for the fifth week",
+          "license": null,
+          "icon": "assets/images/pdf_file.png",
+          "extension": "PDF"
+        }
+      ],
+      "data_source": "<p><strong>Greater London Authority (GLA)</strong></p><p>The GLA is a strategic regional authority, with powers over transport, policing, economic development, and fire and emergency planning. Three functional bodies — Transport for London, the Mayor's Office for Policing and Crime, and London Fire and Emergency Planning Authority — are responsible for delivery of services in these areas.</p>",
+      "maintainer": "<p>Civil Society Team</p>",
+      "license": "<p><a href=\"https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/\">UK Open Government Licence</a> (OGL v3)</p>"
+    }
