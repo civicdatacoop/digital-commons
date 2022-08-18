@@ -1,0 +1,31 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "halton-area-profiles-and-statistics",
+      "title": "Halton Area Profiles and Statistics",
+      "tags": [
+        {"name": "Borough of Halton", "url_alias": "borough-of-halton"},
+        {"name": "Public", "url_alias": "public"},
+        {"name": "Statistics", "url_alias": "statistics"},
+        {"name": "Civic Data", "url_alias": "civic-data"}
+      ],
+      "date": "2022-08-18T00:00:00",
+      "lead": "Various helpful civic statistics and profiles related to the Borough of Halton.",
+      "content": "<p>This dataset contains various helpful civic statistics and profiles related to the Borough of Halton, like economic, population, deprivation, ward, and health profiles.</p>",
+      "large_image_path": "data/images/halton_church.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Halton Area Profiles and Statistics",
+          "data_link": "https://www3.halton.gov.uk/Pages/councildemocracy/CensusandStatistics/CensusandStatistics.aspx",
+          "description": "Borough of Halton Area Profiles and Stats",
+          "icon": "assets/images/html_file.png",
+          "extension": "HTML"
+        }
+      ],
+      "data_source": "<p><strong>Halton Borough Council</strong>.</p> <p><em>Picture: Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Borough_of_Halton#/media/File:Widnes_St_Mary's.jpg\">St Mary's Church, Widnes, Peter I. Vardy</a></em></p>",
+      "maintainer": "<p>Halton Borough Council</p>",
+      "license": "<p>&copy; Copyright Halton Borough Council, Municipal Building, Kingsway, Widnes, Cheshire WA8 7QF UK all rights are reserved. See <a href=\"https://www3.halton.gov.uk/pages/terms.aspx\">Privacy Policy</a></p>"
+    }
