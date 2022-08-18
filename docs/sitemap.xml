@@ -10,6 +10,10 @@
   </url>
 
   <url>
+    <loc>halton-civic-map.html</loc>
+  </url>
+
+  <url>
     <loc>gla-economics-covid-19-labour-market-analysis.html</loc>
   </url>
 
@@ -50,11 +54,11 @@
   </url>
 
   <url>
-    <loc>tag-covid-19.html</loc>
+    <loc>tag-public.html</loc>
   </url>
 
   <url>
-    <loc>tag-public.html</loc>
+    <loc>tag-covid-19.html</loc>
   </url>
 
   <url>
@@ -67,6 +71,18 @@
 
   <url>
     <loc>tag-research.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-borough-of-halton.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-maps.html</loc>
+  </url>
+
+  <url>
+    <loc>tag-civic-data.html</loc>
   </url>
 
   <url>

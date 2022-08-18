@@ -1,0 +1,31 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "halton-civic-map",
+      "title": "Civic maps for Borough of Halton",
+      "tags": [
+        {"name": "Borough of Halton", "url_alias": "borough-of-halton"},
+        {"name": "Public", "url_alias": "public"},
+        {"name": "Maps", "url_alias": "maps"},
+        {"name": "Civic Data", "url_alias": "civic-data"}
+      ],
+      "date": "2022-08-18T00:00:00",
+      "lead": "Various helpful maps related to the Borough of Halton area.",
+      "content": "<p>This dataset refers to various helpful maps related to the Borough of Halton area. They contain civic information about nature, like Tree Preservation, Conservation Areas, but also other issues, like CCTV, bus routes, etc.</p>",
+      "large_image_path": "data/images/halton.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Various maps related to Borough of Halton",
+          "data_link": "https://map.halton.gov.uk/webmapLayers8external/Map.aspx?x=352896&y=383682&resolution=25&epsg=27700&mapname=linked&baseLayer=Grayscale%20Base&datalayers=Gritting%20Primary%2cHalton%20Borough%20Boundary%2cGritting%20Secondary%2cselectFeaturesControl_container",
+          "description": "Borough of Halton maps",
+          "icon": "assets/images/map_file.png",
+          "extension": "MAP"
+        }
+      ],
+      "data_source": "<p><strong>Ordnance Survey</strong>.</p> <p><em>Picture: Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Borough_of_Halton#/media/File:Runcorn_Bridge_-_geograph.org.uk_-_1701094.jpg\">The Silver Jubilee Bridge at dusk, Alan James</a></em></p>",
+      "maintainer": "<p>Ordnance Survey; Cadcorp</p>",
+      "license": "<p>Crown copyright and database rights.</p><p><em>Picture: CC BY-SA 2.0</em></p>"
+    }
