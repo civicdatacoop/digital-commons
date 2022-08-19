@@ -1,0 +1,31 @@
+{
+      "object_type": "Dataset",
+      "template": "__DEFAULT__",
+      "description": null,
+      "keywords": null,
+      "url_alias": "sefton-council-joint-strategic-needs-assessment-jsna",
+      "title": "Sefton Council Joint Strategic Needs Assessment (JSNA)",
+      "tags": [
+        {"name": "Sefton Council", "url_alias": "sefton-council"},
+        {"name": "Public", "url_alias": "public"},
+        {"name": "JSNA", "url_alias": "jsna"},
+        {"name": "Civic Data", "url_alias": "civic-data"}
+      ],
+      "date": "2022-08-19T00:00:00",
+      "lead": "The Joint Strategic Needs Assessment (JSNA) looks at the current and future health and care needs of the local population to inform and guide the planning and commissioning (development of services) of health, etc.",
+      "content": "<p>The Joint Strategic Needs Assessment (JSNA) looks at the current and future health and care needs of the local population to inform and guide the planning and commissioning (development of services) of health, well-being and social care services within the Sefton authority area.</p>",
+      "large_image_path": "data/images/sefton.jpg",
+      "small_image_path": null,
+      "data_entities": [
+        {
+          "title": "Sefton Council Joint Strategic Needs Assessment (JSNA)",
+          "data_link": "https://www.sefton.gov.uk/your-council/plans-policies/business-intelligence-insight-performance/joint-strategic-needs-assessment-jsna/",
+          "description": "Sefton Council",
+          "icon": "assets/images/html_file.png",
+          "extension": "HTML"
+        }
+      ],
+      "data_source": "<p><strong>Sefton Council</strong>.</p> <p><em>Picture: Wikipedia, <a href=\"https://en.wikipedia.org/wiki/Sefton,_Merseyside#/media/File:Sefton_Church.jpg\">Sefton Church, Sefton, Merseyside, Tony Corsini</a></em></p>",
+      "maintainer": "<p><a href=\"https://www.sefton.gov.uk/\">Sefton Council</a></p>",
+      "license": "<p>&copy; Copyright Sefton Council. See <a href=\"https://www.sefton.gov.uk/miscellaneous-pages/privacy-policy.aspx\">Privacy Policy</a></p><p>Picture: CC BY-SA 3.0</p>"
+    }
