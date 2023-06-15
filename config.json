@@ -25,7 +25,7 @@
    "site_logo_text":"Digital Commons",
    "site_title_separator":" | ",
    "site_title_homepage":"Home",
-   "site_home_url":"index.html",
+   "site_home_url":"/",
    "site_home_file_name":"index.html",
    "site_file_suffix":".html",
    "pagination_prefix":"-",
